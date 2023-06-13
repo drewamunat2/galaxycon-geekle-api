@@ -1,0 +1,48 @@
+{
+  "name": "geekle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=bloo-chat nodemon .",
+    "start": "node .",
+    "test": "jest",
+    "server": "json-server --watch db.json",
+    "ngrok": "ngrok http 3000"
+  },
+  "keywords": [],
+  "author": "Drew Amunategui",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^3.4.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "faker": "^5.5.3",
+    "helmet": "^5.1.0",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "nunjucks": "^3.2.3",
+    "realm": "^10.17.0",
+    "socket.io": "^4.5.0",
+    "socket.io-client": "^4.5.0",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewamunat2/summer22/tree/main/geekle.git"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^2.2.2",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  }
+}
